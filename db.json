@@ -1,0 +1,66 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "user": [
+    {
+      "id": "Ahsan Bilal",
+      "name": "Ahsan Bilal",
+      "password": "test",
+      "email": "ahsanbial",
+      "phone": "0343-0000000",
+      "country": "usa",
+      "address": "Testing ",
+      "gender": "male"
+    },
+    {
+      "id": "th",
+      "name": "ththt",
+      "password": "hth",
+      "email": "htht",
+      "phone": "hthth",
+      "country": "usa",
+      "address": "hththth",
+      "gender": "male"
+    },
+    {
+      "id": "cecfef",
+      "name": "fefef",
+      "password": "fefe",
+      "email": "fefef",
+      "phone": "fefef",
+      "country": "Pakistan",
+      "address": "fefefe",
+      "gender": "male"
+    },
+    {
+      "name": "John Doe",
+      "email": "john@example.com",
+      "id": "U89Vjrs"
+    },
+    {
+      "id": "grgr",
+      "name": "grgr",
+      "password": "grg",
+      "email": "grg",
+      "phone": "efew",
+      "country": "india",
+      "address": "fefew",
+      "gender": "male"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
