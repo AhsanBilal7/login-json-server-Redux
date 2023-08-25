@@ -12,7 +12,10 @@ import Login from './Pages/Login/Login';
 import {store , persistor} from './Pages/Store/Store';
 import Navbar from './Components/Navbar';
 import { PersistGate } from 'redux-persist/integration/react';
+
 function App() {
+  // const data = fs.readFileSync('./db.json', 'utf8');
+// console.log(data)
   // const {store , persistor} = configuration();
   return (
     <div className="App">
@@ -26,6 +29,7 @@ function App() {
         <Route path="/" element={<Home/>} />
         <Route path="/registeration" element={<Registeration/>} />
         <Route path="/Login" element={<Login/>} />
+    const data = fs.readFileSync('./db.json', 'utf8');
 
       </Routes>
       </BrowserRouter>
